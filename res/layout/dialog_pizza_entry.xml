@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum = "5"
+    >
+    
+<Button
+android:id="@+id/CestaButton"
+android:layout_width="fill_parent" 
+android:layout_height="0dp"
+android:layout_weight="0.6"
+android:gravity="center"
+android:text="Su pedido: "
+>
+</Button>
+
+<TableRow
+    android:id="@+id/widgecent"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3.1"
+    android:weightSum="10"
+    android:orientation="horizontal"  >
+<Gallery 
+	android:id="@+id/Gallery01" 
+	android:layout_width="0dp" 
+	android:layout_height="fill_parent"
+	android:layout_weight="8.5">  
+</Gallery>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="0dp"
+    android:layout_height="fill_parent"
+    android:layout_weight="1.5"
+    android:weightSum = "20">
+    <TextView 
+        android:id="@+id/textView1" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:text="Pizza" 
+        android:layout_weight="0.9" android:textSize="10sp" android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/Button_gopizza"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.1"
+        android:background="@drawable/pizza_sola" >
+
+     </Button>
+       <TextView 
+        android:id="@+id/uytf" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:text="Salate" 
+        android:layout_weight="0.9" android:textSize="10sp" android:textStyle="bold"/>
+      <Button
+     android:id="@+id/Button_gosalat" 
+	android:layout_width="fill_parent" 
+	android:layout_height="0dp"
+	android:layout_weight="3.1"
+	android:background="@drawable/salate"
+	android:text="">
+     </Button>
+       <TextView 
+        android:id="@+id/ryryu" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:text="Pasta" 
+        android:textAppearance="?android:attr/textAppearanceSmall" 
+        android:layout_weight="0.9" android:textSize="10sp" android:textStyle="bold"/>
+      <Button
+     android:id="@+id/Button_gopasta" 
+	android:layout_width="fill_parent" 
+	android:layout_height="0dp"
+	android:layout_weight="3.1"
+	android:background="@drawable/pastas">
+     </Button>
+       <TextView 
+        android:id="@+id/yyyr" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:text="Diversi" 
+        android:layout_weight="0.9" android:textSize="10sp" android:textStyle="bold"/>
+      <Button
+     android:id="@+id/Button_godiversi" 
+	android:layout_width="fill_parent" 
+	android:layout_height="0dp"
+	android:layout_weight="3.1"
+	android:background="@drawable/comog">
+     </Button>
+       <TextView 
+        android:id="@+id/erty" 
+        android:layout_width="fill_parent" 
+        android:layout_height="0dp" 
+        android:text="Dolci" 
+        android:layout_weight="0.9" android:textSize="10sp" android:textStyle="bold"/>
+      <Button
+     android:id="@+id/Button_godolci" 
+	android:layout_width="fill_parent" 
+	android:layout_height="0dp"
+	android:layout_weight="3.1"
+	android:background="@drawable/desserts">
+     </Button>
+</LinearLayout>
+</TableRow>
+
+<TableRow
+    android:id="@+id/widget176"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.2"
+    android:weightSum="10"
+    android:orientation="horizontal" >
+    
+     
+
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_weight="8"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9,50€" android:layout_gravity="bottom"/>
+
+<Button
+android:id="@+id/addCesta_btn"
+android:layout_width="0dp"
+android:layout_height="fill_parent"
+android:layout_weight="2"
+android:text="+" >
+</Button>
+
+
+</TableRow>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+     <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">PizzeriaAngelo</string>
+    <string name="margarita">Tomaten, Käse,</string>
+    <string name="cardinale">Tomaten, Käse, Schinken</string>
+    <string name="salami">Tomaten, Käse, Salami</string>
+    <string name="gustoso">Tomaten, Käse, Schinken, Mais</string>
+    <string name="hawaii">Tomaten, Käse, Rauch-Schinken, Ananas</string>
+    <string name="mozzarella">Tomaten, Käse, Mozzarella, Tomatenscheiben, Basilikum</string>
+    <string name="tonno">Tomaten, Käse, Thunfisch, Zwiebel</string>
+    <string name="sardella">Tomaten, Käse, Sardellen, Oliven</string>
+    <string name="popeye">Tomaten, Käse, Schafskäse, Blattspinat</string>
+    <string name="provenciale">Tomaten, Käse, Schinken, Speck, Pfefferoni, Mais</string>
+    <string name="quattro">4 Stationen Margherita mit: Schinken, Salami, Artischocken, Champignons</string>
+    <string name="rusticana">Tomaten, Käse, Rauchschinken, Spiegelei, Oliven, Artischocken</string>
+    <string name="angelo">Tomaten, Käse, Schinken, Speck, Pfefferoni, Mozzarella</string>
+    <string name="diavolo">Tomaten, Käse, Schinken, Salami, Zwiebel und scharfe Pfefferoni</string>
+    <string name="stangerl">Mit Knoblauch auf Wunsch auch ohne</string>
+
+</resources>
